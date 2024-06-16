@@ -19,13 +19,13 @@ class BookSearchTest {
       
       System.out.println("함수 테스트 시작");
       
-      Book book1 = BookSearch.search_bs(bookArray,2); // 범위 내에 있는 id 2 검색 (검색 성공)
+      Book book1 = BookSearch.search_bs(bookArray,2); // 범위 내에 있는 id 2를 검색합니다. (검색 성공)
       assertNotNull(book1);
       assertEquals(2,book1.GetId());
       assertEquals("한 여름밤의 꿈",book1.GetTitle());
       System.out.println(book1 + " 검색 성공!");
       
-      Book failbook = BookSearch.search_bs(bookArray,6); // 범위를 벗어난 id 6 검색 (검색 실패)
+      Book failbook = BookSearch.search_bs(bookArray,6); // 범위를 벗어난 id 6을 검색합니다. (검색 실패)
       assertNull(failbook);
       System.out.println("검색 실패!");
    }
