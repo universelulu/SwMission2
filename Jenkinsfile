@@ -23,6 +23,7 @@ pipeline{
       bat 'java -cp C:/ProgramData/Jenkins/.jenkins/workspace/finalMission2/target/finalMission2-0.0.1-SNAPSHOT.jar finalMission2.PerformanceTest > Performance_result.txt'
    }
   }
+}
 
   
 
