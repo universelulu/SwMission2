@@ -19,7 +19,7 @@ class BookSearchTest {
       
       System.out.println("함수 테스트 시작");
       
-      Book book1 = BookSearch.search_bs(bookArray,2) // 범위 내에 있는 id 2 검색 (검색 성공)
+      Book book1 = BookSearch.search_bs(bookArray,2); // 범위 내에 있는 id 2 검색 (검색 성공)
       assertNotNull(book1);
       assertEquals(2,book1.GetId());
       assertEquals("한 여름밤의 꿈",book1.GetTitle());
