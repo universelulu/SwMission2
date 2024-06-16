@@ -14,9 +14,9 @@ public class PerformanceTest {
 		}
 		
 		
-		long StartTime = System.currentTimeMillis();
+		long StartTime = System.currentTimeMillis();  // 시작 시간
 		BookSearch.search_bs(test_BookArray, 300000); // id가 300000인 Book 객체를 이진 탐색하는 search_bs() 함수 실행
-		long EndTime = System.currentTimeMillis();
+		long EndTime = System.currentTimeMillis();    // 마감 시간
 		
 		long DiffTime = EndTime - StartTime; // 실행 시간 계산
 		

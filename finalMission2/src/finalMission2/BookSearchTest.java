@@ -9,6 +9,7 @@ class BookSearchTest {
    @Test
    void testSearch_bs() {
       
+	  // Junit test를 위한 Book 클래스 객체 배열 생성
       Book[] bookArray = {
             new Book(1,"잠 못드는 밤"),
             new Book(2,"한 여름밤의 꿈"),

@@ -5,7 +5,7 @@ public class Book {
 	private int id;
 	private String title;
 	
-	public Book(int id, String title) 
+	public Book(int id, String title) // Book 클래스 생성자
 	{
 		this.id = id;
 		this.title = title;
