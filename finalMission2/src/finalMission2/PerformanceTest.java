@@ -10,7 +10,7 @@ public class PerformanceTest {
 		
 		for(int i=0;i<test_BookArray.length;i++) // index와 동일한 id를 책마다 부여
 		{
-			test_BookArray[i] = new Book(i,"Book " + i)
+			test_BookArray[i] = new Book(i,"Book " + i);
 		}
 		
 		
